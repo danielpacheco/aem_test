@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspaceFilter version="1.0">
+    <filter root="/content/testrepo"/>
+    <filter root="/content/dam/testrepo">
+        <!-- exclude pattern=".*/renditions.*"/ -->
+    </filter>
+    <filter root="/etc/designs/testrepo/jcr:content">
+        <include pattern="/etc/designs/testrepo/jcr:content(/.*)+"/>
+    </filter>
+</workspaceFilter>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspaceFilter version="1.0">
+    <filter root="/apps/testrepo">
+        <exclude pattern="/apps/testrepo/install.*"/>
+        <exclude pattern="/apps/testrepo/runmodes.*"/>
+    </filter>
+    <filter root="/etc/clientlibs/testrepo"/>
+	<filter root="/etc/designs/testrepo">
+        <exclude pattern="/etc/designs/testrepo/jcr:content.*"/>
+    </filter>
+</workspaceFilter>
