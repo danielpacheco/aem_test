@@ -13,7 +13,7 @@
 
 <jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.1">
     
-    <jsp:directive.page trimDirectiveWhitespaces="true"/>
+    <jsp:directive.page trimDirectiveWhitespaces="false"/>
     
     <jsp:directive.include file="/libs/foundation/global.jsp"/>
 
